@@ -1,0 +1,41 @@
+﻿<Window x:Class="焦煤气流量.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="465" Width="247" Loaded="Window_Loaded" Background="Red" FontStretch="Normal" FontStyle="Normal">
+    <Grid Background="#FF33CCCC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="123*" />
+            <RowDefinition Height="136*" />
+            <RowDefinition Height="133*" />
+            <RowDefinition Height="34*" />
+        </Grid.RowDefinitions>
+        <Image Height="20" HorizontalAlignment="Left" Margin="21,36,0,0" Name="im_handoff" Stretch="Fill" VerticalAlignment="Top" Width="20" Source="/焦煤气流量;component/Images/按钮、暗.png" />
+        <Image Height="20" HorizontalAlignment="Left" Margin="21,94,0,0" Name="im_autooff" Source="/焦煤气流量;component/Images/按钮、暗.png" Stretch="Fill" VerticalAlignment="Top" Width="20" />
+        <Image Height="12" HorizontalAlignment="Left" Name="image9" Stretch="Fill" VerticalAlignment="Top" Width="225" Source="/焦煤气流量;component/Images/横线.png" Grid.Row="1" />
+        <Image Height="20" HorizontalAlignment="Left" Margin="21,94,0,0" Name="im_autoon" Source="/焦煤气流量;component/Images/QQ图片20141212212630.png" Stretch="Fill" VerticalAlignment="Top" Width="20" />
+        <Image Height="20" HorizontalAlignment="Left" Margin="21,36,0,0" Name="im_byhandon" Stretch="Fill" VerticalAlignment="Top" Width="20" Source="/焦煤气流量;component/Images/QQ图片20141212212630.png" />
+        <Image Height="94" HorizontalAlignment="Left" Margin="76,8,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="117" Source="/焦煤气流量;component/Images/背景1.jpg" />
+        <Button Content="手动" HorizontalAlignment="Left" Margin="6,7,0,93" Name="bt_byhand" Width="52" />
+        <Button Content="自动" Height="23" HorizontalAlignment="Left" Margin="6,65,0,0" Name="bt_auto" VerticalAlignment="Top" Width="52" />
+        <Label Content="Label" Grid.Row="1" Height="27" HorizontalAlignment="Left" Margin="50,41,0,0" Name="label1" VerticalAlignment="Top" Width="129" Background="Gainsboro"></Label>
+        <Label Background="Gainsboro" Content="Label" Height="27" HorizontalAlignment="Left" Margin="50,109,0,0" Name="label2" VerticalAlignment="Top" Width="129" Grid.Row="1" />
+        <Label Background="Gainsboro" Content="Label" Height="27" HorizontalAlignment="Left" Margin="50,33,0,0" Name="label3" VerticalAlignment="Top" Width="129" Grid.Row="2" />
+        <TextBox Height="21" HorizontalAlignment="Left" Margin="118,15,0,0" Name="tb_svshow" VerticalAlignment="Top" Width="63" />
+        <TextBox Height="21" HorizontalAlignment="Left" Margin="118,44,0,0" Name="tb_pvshow" VerticalAlignment="Top" Width="63" />
+        <TextBox Height="21" HorizontalAlignment="Left" Margin="118,74,0,0" Name="tb_mvshow" VerticalAlignment="Top" Width="63" />
+        <Label Background="SpringGreen" Height="27" HorizontalAlignment="Left" Margin="50,41,0,0" Name="label4" VerticalAlignment="Top" Width="67" Grid.Row="1" BorderBrush="Tomato" />
+        <Label Background="Red" Height="27" HorizontalAlignment="Left" Margin="50,0,0,0" Name="label5" VerticalAlignment="Bottom" Width="67" Grid.Row="1" />
+        <Label Background="RoyalBlue" Height="27" HorizontalAlignment="Left" Margin="50,33,0,0" Name="label6" VerticalAlignment="Top" Width="67" Grid.Row="2" />
+        <Image Grid.Row="3" Height="17" HorizontalAlignment="Left" Margin="177,5,0,0" Name="image6" Stretch="Fill" VerticalAlignment="Top" Width="21" Source="/焦煤气流量;component/Images/报表.png" />
+        <Image Grid.Row="3" Height="17" HorizontalAlignment="Left" Margin="147,5,0,0" Name="image7" Stretch="Fill" VerticalAlignment="Top" Width="24" Source="/焦煤气流量;component/Images/图像.png" />
+        <Image Grid.Row="2" Height="10" HorizontalAlignment="Left" Name="image8" Stretch="Fill" VerticalAlignment="Top" Width="225" Source="/焦煤气流量;component/Images/横线.png" Margin="0,122,0,0" />
+        <Button Content="+" Grid.Row="1" Height="20" HorizontalAlignment="Right" Margin="0,76,46,0" Name="bt_add" VerticalAlignment="Top" Width="20" FontSize="10" FontStretch="Normal" FontWeight="Medium" />
+        <Button Content="——" Grid.Row="1" Height="20" HorizontalAlignment="Left" Margin="50,76,0,0" Name="bt_sub" VerticalAlignment="Top" Width="20" FontSize="10" />
+        <Label Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="6,41,0,0" Name="lb_svmin" VerticalAlignment="Top" />
+        <Label Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="180,41,0,0" Name="lb_svmax" VerticalAlignment="Top" />
+        <Label Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="6,108,0,0" Name="lb_pvmin" VerticalAlignment="Top" />
+        <Label Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="180,108,0,0" Name="lb_pvmax" VerticalAlignment="Top" />
+        <Label Grid.Row="2" Height="28" HorizontalAlignment="Left" Margin="6,32,0,0" Name="lb_mvmin" VerticalAlignment="Top" />
+        <Label Grid.Row="2" Height="28" HorizontalAlignment="Left" Margin="180,32,0,0" Name="lb_mvmax" VerticalAlignment="Top" />
+    </Grid> 
+</Window>
